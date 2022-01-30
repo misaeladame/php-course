@@ -1,6 +1,5 @@
 <?php
-    $bool = false;
 
-    echo $bool;
+    echo 4 * 5 - 6 + 4 * 2 + 1 * 0;
 ?>
 
