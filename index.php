@@ -1,17 +1,14 @@
 <?php
 
-    $base = 5;
-    $exp = 4;
+    //*
+    //**
+    //***
 
-    $resultado = 1;
+    $nombres = ['Misael', 'Leonel', 'Sofia', 'Juana'];
 
-    $i = 1;
-
-    while ($i <= $exp) {
-        $resultado *= $base;
-        $i++;
+    foreach ($nombres as $indice => $nombre) {
+        # code...
+        echo $nombre . " se encontraba en el índice $indice <br>";
     }
-    
-    echo "El valor de $base elevado a la $exp es: $resultado"
 
 ?>
