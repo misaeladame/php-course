@@ -1,19 +1,17 @@
 <?php
 
-    for ($i=1; $i <=20 ; $i++) { 
-
-        /*
-        if ($i==11) {
-            break;
+    function factorial($n) {
+        $resultado = 1;
+        for ($i=1; $i <=$n ; $i++) { 
+            $resultado = $resultado * $i;
         }
-        */
-
-        if ($i == 7 || $i == 15) {
-            die();
-        }
-
-        echo $i . "<br>";
+        
+        //echo "El factorial de $n es: " . $resultado;
+        return $resultado;
     }
 
-    echo "Saliste del bucle";
+    $resultado = factorial(6);
+    
+    echo "El factorial de 6 es: " . $resultado;
+
 ?>
