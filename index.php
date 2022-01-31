@@ -1,50 +1,17 @@
 <?php
 
-    $a = 2;
+    $base = 5;
+    $exp = 4;
 
-    
+    $resultado = 1;
 
-/*
-    switch ($a) {
-        case 1:
-            echo "Lunes <br>";
-            break;
-        
-        case 2:
-            echo "Martes <br>";
-            break;        
-        case 3:
-            echo "Miércoles <br>";
-            break;
-        case 4:
-            echo "Jueves <br>";
-            break;
+    $i = 1;
 
-        case 5:
-            echo "Viernes <br>";
-            break;
-            
-        case 6:
-            echo "Sábado <br>";
-            break;    
-        case 7:
-            echo "Domingo <br>";
-            break;    
-    
-        default:
-            echo "El valor de la variable a no es válido";
-            break;
+    while ($i <= $exp) {
+        $resultado *= $base;
+        $i++;
     }
-*/
-    echo match($a) {
-        1 => "Lunes",
-        2 => "Martes",
-        3 => "Miércoles",
-        4 => "Jueves",
-        5 => "Viernes",
-        6 => "Sábado",
-        7 => "Domingo",
-        default => "El valor dela variable a no es un valor válido"
-    };
-?>
+    
+    echo "El valor de $base elevado a la $exp es: $resultado"
 
+?>
