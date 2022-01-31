@@ -1,14 +1,19 @@
 <?php
 
-    //*
-    //**
-    //***
+    for ($i=1; $i <=20 ; $i++) { 
 
-    $nombres = ['Misael', 'Leonel', 'Sofia', 'Juana'];
+        /*
+        if ($i==11) {
+            break;
+        }
+        */
 
-    foreach ($nombres as $indice => $nombre) {
-        # code...
-        echo $nombre . " se encontraba en el índice $indice <br>";
+        if ($i == 7 || $i == 15) {
+            die();
+        }
+
+        echo $i . "<br>";
     }
 
+    echo "Saliste del bucle";
 ?>
