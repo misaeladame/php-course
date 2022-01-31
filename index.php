@@ -1,10 +1,14 @@
 <?php
 
-    $a = 10;
-    $b = 5;
+    $a = 5;
+    $b = 3;
 
-    $a %= $b;
-
-    echo $a;
+    if ($a > $b) {
+        echo "El valor de a es mayor que el valor de b";
+    } else if ($b < $b){
+        echo "El valor de a es menor que el valor de b";
+    } else {
+        echo "El valor de a es igual que el valor de b";
+    }
 ?>
 
