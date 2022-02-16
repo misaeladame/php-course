@@ -20,6 +20,7 @@ class ClaseConcreta extends ClaseAbstracta
     }
 
     public function valorPrefijo($prefijo, $separador = '.') {
+        //Lógica del método
         return $prefijo . " Clase conreta";
     }
 }
